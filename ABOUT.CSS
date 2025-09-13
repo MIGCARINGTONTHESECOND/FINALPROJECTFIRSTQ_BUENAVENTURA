@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-family: sans-serif;
+  background-color: #628258;
+}
+
+.MAINCONTENT {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #628258;
+}
+
+header.heading {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+header.heading h3 {
+  font-size: 60px;
+  margin: 10px 0;
+  color: white;
+}
+
+header.heading .topnav {
+  margin-top: 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+/* Containers */
+.mycontainer,
+.notmycontainer,
+.othercontainer {
+  border: 1px solid #000;
+  background-color: #628258;
+  height: 80vh;
+}
+
+.thcontainer {
+  clear: both;
+  margin: auto;
+  background-color: #628258;
+}
+
+/* Navigation */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+ .topnav a {
+           
+            color: #000000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+    }
+    .topnav a:hover {
+      text-align:center;
+      background-color: white ;
+      color: rgb(0, 0, 0);
+    }
+
+.topnav a.active {
+  border: 1px solid #000;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  background: white(126, 111, 111, 0.9);
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  padding: 8px 14px;
+  transition: all 0.3s ease;
+}
+
+.topnav a:hover {
+  background-color: #628258;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.topnav a.active {
+  border: #000000 solid 1px ;
+  text-align: center;
+  background-color: white ;
+  color: white;
+}
+
+
+/* Floating/Positioned Elements */
+#LOCATION {
+  text-align: right;
+  z-index: 2;
+  float: right;
+  margin-right: 40px;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 20px;
+  right: 140px;
+  opacity: 0.7;
+}
+
+#ISKOCRACY {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+#ISKORCACY {
+  margin-left: -600px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/* Headings */
+h2 {
+        border: #000000 solid 3px;
+        margin-right: 30px;
+        margin-left :1010px;
+            text-align: center;
+            font-size: 40px;
+           float:center;
+             padding: 1px;
+              background-color: #47593e;
+             color:#ffffff;
+    }
+
+h3 {
+        padding: 10px;
+            text-align: center;
+            font-size: 100px;
+    }
+
+h4 {
+  border: #000000 solid 3px;
+        margin-right: 1010px;
+        margin-left :30px;
+            text-align: center;
+            font-size: 40px;
+           float:center;
+             padding: 1px;
+             background-color: #47593e;
+             color:#ffffff;
+}
+
+h5,
+h6 {
+  width: 650px;
+  text-align: center;
+  padding: 1px;
+  border: 3px solid #000;
+  margin: auto;
+  font-size: 40px;
+  background-color: #47593e;
+  color: white;
+}
+
+/* Content Sections */
+#footballteam {
+  float: left; 
+            margin-top: 35PX;
+            margin-left: 30px;
+            border: #000000 solid 3px;
+            height: 60vh;
+            width: 70vh;
+}
+
+#SDG3 {
+
+      background-color: #819B74;
+            text-align: center;
+            font-size: 30px;
+            border: #000000 solid 3px;
+            padding: 2px;
+            COLOR: WHITE;
+            height: 50px;
+
+    }
+
+#ADVOCACYBACKGROUND {
+  text-align: right;
+  margin-right: 30px;
+            color:rgb(255, 246, 246);
+            font-size: 30x;
+            line-height: 40px;
+}
+
+#selfpic {
+  float: right;
+  margin-top: 50px;
+  margin-right: 110px;
+  border: 3px solid #000;
+  height: 60vh;
+    width: 50vh;
+}
+
+#abouttheauthor {
+  text-align: left;
+  line-height: 2;
+            margin: 30px;
+            font-size: 20px;
+            float:center;
+            color: white;
+}
+
+/* Logos */
+#MLOGO,
+#EMAILLOGO {
+  float: left;
+  margin-left: 30px;
+  border: 3px solid #000;
+  width: 150px;
+  height: 100px;
+}
+
+#UST,
+#UN,
+#WHO,
+#MAPUA {
+  float: left;
+  margin-right: 8px;
+  margin-left:38px;
+  margin-top:10px;
+  width: 200px;
+  height: 200px;
+}
+.TITLE {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#UN,
+#WHO {
+  border: 1px solid #000;
+  background-color: white;
+}
+
+.UNITEDNATIONS,
+.UST,
+.WHO,
+.MAPUA {
+  width: 850px;
+  height: 330px;
+  float: left;
+}
+
+.WHO {
+  clear: both;
+}
+
+/* Details */
+#MESSENGERUSER,
+#emailLogo,
+#EMAILUSER {
+  text-align: left;
+  margin-left: 250px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.MESSENGERDETAILS {
+    margin: auto;
+  width: 40%;
+}
+.EMAILDETAILS {
+  clear: both;
+  margin: auto;
+  width: 40%;
+}
+
+#INSPIRE {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  display: block;
+  color:white;
+}
